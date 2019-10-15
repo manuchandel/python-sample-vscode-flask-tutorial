@@ -26,5 +26,6 @@ stages:
         command: buildAndPush
         dockerfile: '**/Dockerfile'
         containerRegistry: 'docker'
+        repository: 'StandardSkuClusterImage'
         tags: |
           manu
